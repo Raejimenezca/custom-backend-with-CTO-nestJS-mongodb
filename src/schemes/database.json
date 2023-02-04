@@ -1,0 +1,46 @@
+{
+    "customers": [
+        {
+            "id" = "1";
+            "documentType": {
+                "code": "CC",
+                "description": "Cédula ciudadanía"
+            },
+            "document": "283764",
+            "fullName": "Rafa",
+            "email": "rafa@outlook.com",
+            "phone": "752634",
+            "password": "lhgsdfghkasd",
+            "avatarUrl": "avatar.net",
+            "state" = true,
+            "deleteAt": 01121998
+        },
+        {
+            "id" = "2";
+            "documentType": {
+                "code": "P",
+                "description": "Pasaporte"
+            },
+            "document": "2837287346264",
+            "fullName": "Maria",
+            "email": "maria@outlook.com",
+            "phone": "8762342",
+            "password": "kaksd",
+            "state" = true
+        }
+    ],
+    "transfers": [],
+    "products": [],
+    "accounts": [
+        {
+            "id" = "uuid()",
+            "customer": "CustomerModel",
+            "accountType": "AccountTypeModel",
+            "balance": 24234,
+            "state" = "true",
+            "deleteAt"?: "number" | Date,
+            "customerId": string,
+            "accountTypeId": string
+        }],
+    "deposits": []
+}
